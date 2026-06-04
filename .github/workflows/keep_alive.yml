@@ -3,7 +3,7 @@ name: Supabase Keep Alive
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
-  workflow_dispatch:      # Allows you to manually run the workflow from the GitHub UI - edit this
+  workflow_dispatch:      # Allows you to manually run the workflow from the GitHub UI - edit this to keep alive
 
 jobs:
   ping:
